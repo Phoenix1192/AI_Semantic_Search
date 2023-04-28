@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-image: url(../pics/pxfuel.jpg
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.search{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10%;
+}
+.Querybar{
+  width: 40%;
+}
+.Numberbar{
+  width: 5%;
+}
+.Querybar > input{
+     height:100%;
+     border-radius: 10%;
+     font-size: large;
+     outline: none;
+     width: 80%;
+}
+.Numberbar > input {
+    height:100%;
+    border-radius: 10%;
+    outline: none;
+    width: 100%;
+}
+.Result{
+  display: flex;
+  flex-direction: column;
+}
+.Inter{
+  margin-top: 1vh;
+  font-size: medium;
+  color: #fed4a5;
+  text-align: left;
+}
+.Query{
+  font-size: medium;
+  width: fit-content;
+}
+.Number{
+  font-size: medium;
+  width: fit-content;
+}
+.buttonclass{
+  width: 5%;
+  height:100%;
+  border-radius: 4%;
+  display: block;
+  background-image: url(../pics/loupe.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
